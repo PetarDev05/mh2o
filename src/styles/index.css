@@ -3,10 +3,10 @@
 @import "tailwindcss";
 
 :root {
-  --primary: #cf1717;
-  --secondary: #e7b731;
-  /* --primary: #4d67e9;
-  --secondary: #58bffa; */
+  /* --primary: #cf1717;
+  --secondary: #e7b731; */
+  --primary: #4d67e9;
+  --secondary: #58bffa;
   --bg: #080808;
   --heading: #efefef;
   --text: #9f9f9f;
@@ -14,6 +14,9 @@
   --white: #ffffff;
   --black: #000000;
   --border: #202020;
+  --card-bg: #131313; 
+
+  --radial-bg: #cf171737;
 }
 
 * {
@@ -32,3 +35,7 @@ nav {
   height: calc(100vh - 72px);
 }
 
+@theme {
+  --shadow-step: inset 0px 0px 45px 2px var(--primary), 0px 0px 45px 2px var(--secondary);
+  --shadow-step-mobile: inset 0px 0px 25px 1px var(--primary), 0px 0px 25px 1px var(--secondary);
+}

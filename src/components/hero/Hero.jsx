@@ -3,7 +3,7 @@ import { FaCircleDot } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <section className="w-full min-h-screen pt-18 flex flex-col items-start justify-center px-5 sm:px-10 md:px-20 lg:px-30 gap-5 lg:gap-10">
+    <section className="w-full pt-18 flex flex-col items-start justify-center px-5 sm:px-10 md:px-20 lg:px-30 gap-5 lg:gap-10">
       <p className="py-0.5 pl-1.5 pr-3 border border-(--primary) rounded-full text-(--heading) text-[12px] flex items-center gap-2 bg-(--primary)/25">
         <FaCircleDot className="text-(--white) text-md" />
         Personalni trener Miloš Ordić

@@ -2,9 +2,9 @@ import Hero from "../components/hero/Hero.jsx";
 
 const Home = () => {
   return (
-    <div className="w-full">
+    <section className="w-full min-h-screen flex items-center justify-center">
       <Hero />
-    </div>
+    </section>
   );
 };
 

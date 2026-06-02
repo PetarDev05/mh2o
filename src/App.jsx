@@ -1,6 +1,7 @@
 import Header from "./components/header/Header.jsx";
 import Menu from "./components/header/Menu.jsx";
 import Home from "./pages/Home.jsx";
+import HowItWorks from "./pages/HowItWorks.jsx";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Header />
       <Menu />
       <Home />
+      <HowItWorks />
     </main>
   );
 };
