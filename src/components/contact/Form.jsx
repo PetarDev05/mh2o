@@ -51,7 +51,7 @@ const Form = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="w-full max-w-100  gap-5 p-4 sm:p-6 backdrop-blur-lg"
+      className="w-full max-w-100  gap-5 p-4 sm:p-6 bg-(--bg)/60 backdrop-blur-lg"
     >
       <FormHead />
 

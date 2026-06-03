@@ -74,4 +74,6 @@ textarea:focus {
     inset 0px 0px 45px 2px var(--primary), 0px 0px 45px 2px var(--secondary);
   --shadow-step-mobile:
     inset 0px 0px 25px 1px var(--primary), 0px 0px 25px 1px var(--secondary);
+    --shadow-logo: inset 0px 0px 45px 2px var(--primary);
+    --shadow-logo-hover: 0px 0px 45px 2px var(--primary);
 }
