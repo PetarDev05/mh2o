@@ -29,7 +29,7 @@ hover:text-(--dark) transition-all duration-200 text-(--light) px-2 py-1.75 bord
 
       <div className="flex flex-row items-center gap-3">
         <span
-          className="text-(--white) transition-all duration-200 px-2 py-1.75 border border-(--border) rounded-[5px] cursor-pointer"
+          className="text-(--primary) transition-all duration-200 px-2 py-1.75 border border-(--primary) rounded-[5px] cursor-pointer"
           disabled={loading}
           id="refresh"
           type="button"

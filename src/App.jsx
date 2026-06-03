@@ -5,6 +5,7 @@ import Home from "./pages/Home.jsx";
 import HowItWorks from "./pages/HowItWorks.jsx";
 import Pricing from "./pages/Pricing.jsx";
 import { Toaster } from "react-hot-toast";
+import Testimonials from "./pages/Testimonials.jsx";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <HowItWorks />
       <Pricing />
       <Contact />
+      <Testimonials />
       <Toaster toastOptions={{
           duration: 5000,
           success: {
