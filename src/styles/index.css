@@ -16,7 +16,10 @@
   --border: #202020;
   --card-bg: #131313; 
 
-  --radial-bg: #cf171737;
+  --radial-bg: #1f2c6e;
+
+  --green: #2df3a7;
+  --green-light: #70d7b1;
 }
 
 * {
