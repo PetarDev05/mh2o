@@ -45,7 +45,7 @@ const PricingCard = ({ program }) => {
         </p>
         <a
           href="#kontakt"
-          className="flex items-center gap-2 px-7 py-2 rounded-full bg-linear-to-r from-(--primary) to-(--secondary) text-(--button-text) font-semibold text-[13px] cursor-pointer"
+          className="flex items-center gap-2 px-7 py-2 rounded-md bg-(--primary) text-(--button-text) font-semibold text-[13px] cursor-pointer"
         >
           Izaberi plan{" "}
           <LuSquareArrowOutUpRight className="text-(--button-text)" />

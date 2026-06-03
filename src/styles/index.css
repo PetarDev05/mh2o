@@ -14,12 +14,15 @@
   --white: #ffffff;
   --black: #000000;
   --border: #202020;
-  --card-bg: #131313; 
+  --card-bg: #131313;
 
-  --radial-bg: #1f2c6e;
+  --gradient-bg: #1f2c6e;
 
   --green: #2df3a7;
   --green-light: #70d7b1;
+
+  --success: #41d257;
+  --error: #db3939;
 }
 
 * {
@@ -38,7 +41,35 @@ nav {
   height: calc(100vh - 72px);
 }
 
+form {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--border);
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px 14px;
+  color: var(--white);
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  appearance: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border: 1px solid var(--primary);
+}
+
 @theme {
-  --shadow-step: inset 0px 0px 45px 2px var(--primary), 0px 0px 45px 2px var(--secondary);
-  --shadow-step-mobile: inset 0px 0px 25px 1px var(--primary), 0px 0px 25px 1px var(--secondary);
+  --shadow-step:
+    inset 0px 0px 45px 2px var(--primary), 0px 0px 45px 2px var(--secondary);
+  --shadow-step-mobile:
+    inset 0px 0px 25px 1px var(--primary), 0px 0px 25px 1px var(--secondary);
 }

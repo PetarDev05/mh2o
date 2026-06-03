@@ -1,8 +1,10 @@
 import Header from "./components/header/Header.jsx";
 import Menu from "./components/header/Menu.jsx";
+import Contact from "./pages/Contact.jsx";
 import Home from "./pages/Home.jsx";
 import HowItWorks from "./pages/HowItWorks.jsx";
 import Pricing from "./pages/Pricing.jsx";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   return (
@@ -12,6 +14,22 @@ const App = () => {
       <Home />
       <HowItWorks />
       <Pricing />
+      <Contact />
+      <Toaster toastOptions={{
+          duration: 5000,
+          success: {
+            style: {
+              background: "var(--success)",
+              color: "var(--white)",
+            },
+          },
+          error: {
+            style: {
+              background: "var(--error)",
+              color: "var(--white)",
+            },
+          },
+        }} />
     </main>
   );
 };
