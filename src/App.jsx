@@ -9,6 +9,7 @@ import Testimonials from "./pages/Testimonials.jsx";
 import AboutBrand from "./pages/AboutBrand.jsx";
 import Transformations from "./pages/Transformations.jsx";
 import Advatages from "./pages/Advatages.jsx";
+import AboutMe from "./pages/AboutMe.jsx";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <AboutBrand />
       <Transformations />
       <Advatages />
+      <AboutMe />
       <Toaster
         toastOptions={{
           duration: 5000,
