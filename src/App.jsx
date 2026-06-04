@@ -10,6 +10,7 @@ import AboutBrand from "./pages/AboutBrand.jsx";
 import Transformations from "./pages/Transformations.jsx";
 import Advatages from "./pages/Advatages.jsx";
 import AboutMe from "./pages/AboutMe.jsx";
+import Video from "./pages/Video.jsx";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <Transformations />
       <Advatages />
       <AboutMe />
+      <Video />
       <Toaster
         toastOptions={{
           duration: 5000,

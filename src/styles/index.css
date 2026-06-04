@@ -69,6 +69,10 @@ textarea:focus {
   border: 1px solid var(--primary);
 }
 
+iframe::-webkit-scrollbar {
+  display: none;
+}
+
 @theme {
   --shadow-step:
     inset 0px 0px 45px 2px var(--primary), 0px 0px 45px 2px var(--secondary);
