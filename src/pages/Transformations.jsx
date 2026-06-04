@@ -1,6 +1,6 @@
 const Transformations = () => {
   return (
-    <section className="w-full min-h-screen flex flex-col items-center justify-center gap-10 px-5 py-10">
+    <section className="w-full min-h-screen flex flex-col items-center justify-center gap-10 px-5 py-10 bg-linear-to-b from-(--bg) via-(--trans-grad-bg) to-(--bg)">
       <h2 className="text-(--heading) text-3xl md:text-4xl lg:text-5xl max-w-190 font-semibold text-center">
         Transformacije mojih klijenata
       </h2>

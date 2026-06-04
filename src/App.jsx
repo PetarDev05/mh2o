@@ -11,6 +11,7 @@ import Transformations from "./pages/Transformations.jsx";
 import Advatages from "./pages/Advatages.jsx";
 import AboutMe from "./pages/AboutMe.jsx";
 import Video from "./pages/Video.jsx";
+import Motivations from "./pages/Motivations.jsx";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       <Advatages />
       <AboutMe />
       <Video />
+      <Motivations />
       <Toaster
         toastOptions={{
           duration: 5000,

@@ -17,6 +17,7 @@
   --card-bg: #131313;
 
   --gradient-bg: #1f2c6e;
+  --trans-grad-bg: #090e22;
 
   --card-hover: #00131f;
 
@@ -78,8 +79,7 @@ iframe::-webkit-scrollbar {
     inset 0px 0px 45px 2px var(--primary), 0px 0px 45px 2px var(--secondary);
   --shadow-step-mobile:
     inset 0px 0px 25px 1px var(--primary), 0px 0px 25px 1px var(--secondary);
-  --shadow-logo: inset 0px 0px 45px 2px var(--primary);
-  --shadow-logo-hover: 0px 0px 45px 2px var(--primary);
+  --shadow-video: 0px 0px 25px 2px var(--primary);
 }
 
 @theme {
