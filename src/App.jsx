@@ -7,6 +7,8 @@ import Pricing from "./pages/Pricing.jsx";
 import { Toaster } from "react-hot-toast";
 import Testimonials from "./pages/Testimonials.jsx";
 import AboutBrand from "./pages/AboutBrand.jsx";
+import Transformations from "./pages/Transformations.jsx";
+import Advatages from "./pages/Advatages.jsx";
 
 const App = () => {
   return (
@@ -19,7 +21,10 @@ const App = () => {
       <Contact />
       <Testimonials />
       <AboutBrand />
-      <Toaster toastOptions={{
+      <Transformations />
+      <Advatages />
+      <Toaster
+        toastOptions={{
           duration: 5000,
           success: {
             style: {
@@ -33,7 +38,8 @@ const App = () => {
               color: "var(--white)",
             },
           },
-        }} />
+        }}
+      />
     </main>
   );
 };

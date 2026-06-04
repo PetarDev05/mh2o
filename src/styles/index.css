@@ -18,7 +18,7 @@
 
   --gradient-bg: #1f2c6e;
 
-  --testimonial-hover: #00131f;
+  --card-hover: #00131f;
 
   --green: #2df3a7;
   --green-light: #70d7b1;
@@ -74,6 +74,170 @@ textarea:focus {
     inset 0px 0px 45px 2px var(--primary), 0px 0px 45px 2px var(--secondary);
   --shadow-step-mobile:
     inset 0px 0px 25px 1px var(--primary), 0px 0px 25px 1px var(--secondary);
-    --shadow-logo: inset 0px 0px 45px 2px var(--primary);
-    --shadow-logo-hover: 0px 0px 45px 2px var(--primary);
+  --shadow-logo: inset 0px 0px 45px 2px var(--primary);
+  --shadow-logo-hover: 0px 0px 45px 2px var(--primary);
+}
+
+@theme {
+  --animate-slide: slide 60s ease-in-out infinite;
+
+  /* @keyframes slide {
+    0% {
+      transform: translate(0%);
+    }
+
+    10% {
+      transform: translate(-100%);
+    }
+
+    20% {
+      transform: translate(-200%);
+    }
+
+    30% {
+      transform: translate(-300%);
+    }
+
+    40% {
+      transform: translate(-400%);
+    }
+
+    50% {
+      transform: translate(-500%);
+    }
+
+    60% {
+      transform: translate(-600%);
+    }
+
+    70% {
+      transform: translate(-700%);
+    }
+
+    80% {
+      transform: translate(-800%);
+    }
+    
+    90% {
+      transform: translate(-800%);
+    }
+
+    80% {
+      transform: translate(-800%);
+    }
+  } */
+
+  @keyframes slide {
+    0% {
+      transform: translate(0%);
+    }
+
+    2% {
+      transform: translate(0%);
+    }
+
+    9% {
+      transform: translate(-100%);
+    }
+
+    11% {
+      transform: translate(-100%);
+    }
+
+    13% {
+      transform: translate(-100%);
+    }
+
+    20% {
+      transform: translate(-200%);
+    }
+
+    22% {
+      transform: translate(-200%);
+    }
+
+    24% {
+      transform: translate(-200%);
+    }
+
+    31% {
+      transform: translate(-300%);
+    }
+
+    33% {
+      transform: translate(-300%);
+    }
+
+    35% {
+      transform: translate(-300%);
+    }
+
+    42% {
+      transform: translate(-400%);
+    }
+
+    44% {
+      transform: translate(-400%);
+    }
+
+    46% {
+      transform: translate(-400%);
+    }
+
+    53% {
+      transform: translate(-500%);
+    }
+
+    55% {
+      transform: translate(-500%);
+    }
+
+    57% {
+      transform: translate(-500%);
+    }
+
+    64% {
+      transform: translate(-600%);
+    }
+
+    66% {
+      transform: translate(-600%);
+    }
+
+    68% {
+      transform: translate(-600%);
+    }
+
+    75% {
+      transform: translate(-700%);
+    }
+
+    77% {
+      transform: translate(-700%);
+    }
+
+    79% {
+      transform: translate(-700%);
+    }
+
+    86% {
+      transform: translate(-800%);
+    }
+
+    88% {
+      transform: translate(-800%);
+    }
+
+    90% {
+      transform: translate(-800%);
+    }
+
+    97% {
+      transform: translate(-900%);
+    }
+
+    100% {
+      transform: translate(-900%);
+    }
+  }
 }
