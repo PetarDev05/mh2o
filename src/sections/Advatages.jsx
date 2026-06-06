@@ -1,4 +1,4 @@
-import AdvatageCard from "../components/advantages/AdvatageCard";
+import AdvatageCard from "../components/advantages/AdvatageCard.jsx";
 import { advatages } from "../data/advatages.js";
 
 const Advatages = () => {
@@ -8,7 +8,8 @@ const Advatages = () => {
         Prednosti treninga sa personalnim trenerom
       </h2>
       <p className="text-(--text) max-w-150 text-center">
-        Iz dole navedenih razloga sam odlučio da tržištu, stanovništvu i mladima ponudim opciju zdravog trenažnog procesa.
+        Iz dole navedenih razloga sam odlučio da tržištu, stanovništvu i mladima
+        ponudim opciju zdravog trenažnog procesa.
       </p>
       <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-10">
         {advatages.map((advantage) => (

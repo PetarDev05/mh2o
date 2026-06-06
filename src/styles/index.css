@@ -3,8 +3,6 @@
 @import "tailwindcss";
 
 :root {
-  /* --primary: #cf1717;
-  --secondary: #e7b731; */
   --primary: #4d67e9;
   --secondary: #58bffa;
   --bg: #080808;
@@ -30,6 +28,7 @@
 
 * {
   font-family: "Poppins";
+  scroll-behavior: smooth;
 }
 
 body {

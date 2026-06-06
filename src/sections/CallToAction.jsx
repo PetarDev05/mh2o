@@ -1,0 +1,33 @@
+import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from "react-router-dom";
+
+const CallToAction = () => {
+  return (
+    <section className="relative w-full min-h-screen flex flex-col items-center justify-center gap-10 px-5 py-10">
+      <h2 className="text-(--heading) text-3xl md:text-4xl lg:text-5xl max-w-190 font-semibold text-center">
+        Započni svoju transformaciju već danas
+      </h2>
+      <p className="text-(--text) max-w-150 text-center">
+        Pogledajte i odaberite plan ili mi se javite putem kontakt forme i
+        počinjemo sa radom!
+      </p>
+      <div className="flex flex-col min-[450px]:flex-row items-start min-[450px]:items-center gap-5">
+        <Link
+          to="/saradnja#kontakt"
+          className="flex items-center gap-2 px-7 py-2 rounded-full bg-linear-to-r from-(--primary) to-(--secondary) text-(--button-text) font-semibold text-[13px] cursor-pointer"
+        >
+          Počni odmah <FaArrowRightLong className="text-(--button-text)" />
+        </Link>
+        <Link
+          to="/saradnja#planovi"
+          className="flex items-center gap-2 px-7 py-2 rounded-full border-2 border-(--primary) text-(--button-text) font-semibold text-[13px] cursor-pointer"
+        >
+          Pogledaj planove <FaArrowRightLong className="text-(--button-text)" />
+        </Link>
+      </div>
+      <div className="absolute top-1/2 left-1/2 -translate-1/2 aspect-square w-[90%] max-w-150 -z-10 bg-radial from-(--primary)/50 to-(--bg) to-70% rounded-full"></div>
+    </section>
+  );
+};
+
+export default CallToAction;

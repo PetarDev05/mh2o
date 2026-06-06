@@ -1,13 +1,13 @@
+import { Link } from "react-router-dom";
+
 const NavBar = () => {
   return (
     <nav
-      className="flex flex-row items-center gap-8 text-(--text) text-sm cursor-pointer max-[900px]:hidden"
+      className="flex flex-row items-center gap-8 text-(--text) text-sm cursor-pointer max-[700px]:hidden"
     >
-      <a href="#pocetna" className="">Početna</a>
-      <a href="#o_meni" className="">O meni</a>
-      <a href="#transformacije" className="">Transformacije</a>
-      <a href="#cenovnik" className="">Cenovnik</a>
-      <a href="#kontakt" className="">Kontakt</a>
+      <Link to="/pocetna" className="">Početna</Link>
+      <Link to="/o_meni" className="">O meni</Link>
+      <Link to="/saradnja" className="">Saradnja</Link>
     </nav>
   );
 };

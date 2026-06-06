@@ -1,37 +1,36 @@
 import Header from "./components/header/Header.jsx";
 import Menu from "./components/header/Menu.jsx";
-import Contact from "./pages/Contact.jsx";
 import Home from "./pages/Home.jsx";
-import HowItWorks from "./pages/HowItWorks.jsx";
-import Pricing from "./pages/Pricing.jsx";
+import About from "./pages/About.jsx";
+import Colaboration from "./pages/Colaboration.jsx";
+// import Contact from "./pages/Contact.jsx";
+// import HowItWorks from "./pages/HowItWorks.jsx";
+// import Pricing from "./pages/Pricing.jsx";
+// import Testimonials from "./pages/Testimonials.jsx";
+// import Transformations from "./pages/Transformations.jsx";
+// import Advatages from "./pages/Advatages.jsx";
+// import Video from "./pages/Video.jsx";
+// import Motivations from "./pages/Motivations.jsx";
+import { Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import Testimonials from "./pages/Testimonials.jsx";
-import AboutBrand from "./pages/AboutBrand.jsx";
-import Transformations from "./pages/Transformations.jsx";
-import Advatages from "./pages/Advatages.jsx";
-import AboutMe from "./pages/AboutMe.jsx";
-import Video from "./pages/Video.jsx";
-import Motivations from "./pages/Motivations.jsx";
 
 const App = () => {
   return (
     <main>
       <Header />
       <Menu />
-      <Home />
-      <HowItWorks />
-      <Pricing />
-      <Contact />
-      <Testimonials />
-      <AboutBrand />
+      <Routes>
+        <Route path="/pocetna" element={<Home />} />
+        <Route path="/o_meni" element={<About />} />
+        <Route path="/saradnja" element={<Colaboration />} />
+      </Routes>
+      {/* 
       <Transformations />
-      <Advatages />
-      <AboutMe />
       <Video />
-      <Motivations />
+      */}
       <Toaster
         toastOptions={{
-          duration: 5000,
+          duration: 4000,
           success: {
             style: {
               background: "var(--success)",

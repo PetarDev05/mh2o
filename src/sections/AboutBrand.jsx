@@ -1,6 +1,6 @@
 const AboutBrand = () => {
   return (
-    <section className="w-full min-h-screen flex flex-col items-center justify-center gap-10 px-5 py-10">
+    <section className="w-full min-h-screen flex flex-col items-center justify-center gap-10 px-5 pb-10">
       <h2 className="text-(--heading) text-3xl md:text-4xl lg:text-5xl max-w-190 font-semibold text-center">
         Kako je nastao brend MH2O
       </h2>
@@ -8,7 +8,7 @@ const AboutBrand = () => {
         <div className="flex flex-col items-center min-[950px]:items-start min-[950px]:w-1/2 gap-5">
           <hr className="w-full text-(--border)" />
           <div className="flex max-[500px]:flex-col flex-row items-center gap-5 sm:gap-10">
-            <span className="flex items-center justify-center border border-(--primary) bg-(--primary)/15 min-w-15 h-15 text-xl font-semibold rounded-md text-(--primary)">
+            <span className="flex items-center justify-center border border-(--secondary) bg-(--secondary)/15 min-w-15 h-15 text-xl font-semibold rounded-md text-(--secondary)">
               01
             </span>
             <p className="text-(--text) max-w-150 max-[500px]:text-center">
@@ -20,7 +20,7 @@ const AboutBrand = () => {
           </div>
           <hr className="w-full text-(--border)" />
           <div className="flex max-[500px]:flex-col flex-row items-center gap-5 sm:gap-10">
-            <span className="flex items-center justify-center border border-(--primary) bg-(--primary)/15 min-w-15 h-15 text-xl font-semibold rounded-md text-(--primary)">
+            <span className="flex items-center justify-center border border-(--secondary) bg-(--secondary)/15 min-w-15 h-15 text-xl font-semibold rounded-md text-(--secondary)">
               02
             </span>
             <p className="text-(--text) max-w-150 max-[500px]:text-center">
@@ -31,7 +31,7 @@ const AboutBrand = () => {
           </div>
           <hr className="w-full text-(--border)" />
           <div className="flex max-[500px]:flex-col flex-row items-center gap-5 sm:gap-10">
-            <span className="flex items-center justify-center border border-(--primary) bg-(--primary)/15 min-w-15 h-15 text-xl font-semibold rounded-md text-(--primary)">
+            <span className="flex items-center justify-center border border-(--secondary) bg-(--secondary)/15 min-w-15 h-15 text-xl font-semibold rounded-md text-(--secondary)">
               03
             </span>
             <p className="text-(--text) max-w-150 max-[500px]:text-center">

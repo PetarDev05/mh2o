@@ -6,7 +6,7 @@ const Menu = () => {
   return (
     <div
       id="menu"
-      className={`w-full max-w-100 fixed top-18 right-0 border-l border-(--border) bg-transparent backdrop-blur-lg flex flex-col items-center justify-center transition-all duration-200 text-(--text) ${showMenu ? "translate-x-0" : "translate-x-full"} z-20 min-[900px]:hidden`}
+      className={`w-full max-w-100 fixed top-18 right-0 border-l border-(--border) bg-transparent backdrop-blur-lg flex flex-col items-center justify-center transition-all duration-200 text-(--text) ${showMenu ? "translate-x-0" : "translate-x-full"} z-20 min-[700px]:hidden`}
     >
       <a
         onClick={toggleMenu}

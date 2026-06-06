@@ -1,5 +1,4 @@
-import { FaCircleCheck, FaCircleDot } from "react-icons/fa6";
-import { LuSquareArrowOutUpRight } from "react-icons/lu";
+import { FaArrowRightLong, FaCircleCheck, FaCircleDot } from "react-icons/fa6";
 
 const PricingCard = ({ program }) => {
   return (
@@ -47,8 +46,7 @@ const PricingCard = ({ program }) => {
           href="#kontakt"
           className="flex items-center gap-2 px-7 py-2 rounded-md bg-(--primary) text-(--button-text) font-semibold text-[13px] cursor-pointer"
         >
-          Izaberi plan{" "}
-          <LuSquareArrowOutUpRight className="text-(--button-text)" />
+          Izaberi plan <FaArrowRightLong className="text-(--button-text)" />
         </a>
       </div>
     </div>
