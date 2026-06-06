@@ -6,11 +6,11 @@ const NavBar = () => {
   return (
     <nav className="flex flex-col min-[700px]:flex-row items-center gap-8 text-(--text) text-sm cursor-pointer max-[700px]:hidden">
       <Link
-        to="/pocetna"
-        className={`w-fit flex flex-col items-center gap-1 ${location.pathname === "/pocetna" ? "text-(--heading)" : ""}`}
+        to="/"
+        className={`w-fit flex flex-col items-center gap-1 ${location.pathname === "/" ? "text-(--heading)" : ""}`}
       >
         <p className="">Početna</p>
-        {location.pathname === "/pocetna" && (
+        {location.pathname === "/" && (
           <span className="w-full h-0.5 rounded bg-(--heading)"></span>
         )}
       </Link>

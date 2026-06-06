@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header className="w-full h-18 fixed top-0 flex flex-row items-center justify-between px-7 sm:px-10 xl:px-30 border-b border-(--border) bg-transparent backdrop-blur-lg z-40">
-      <Link to="/pocetna" className="cursor-pointer">
+      <Link to="/" className="cursor-pointer">
         <img src="/mh2o-logo.png" alt="logo" className="w-16" />
       </Link>
       <NavBar />

@@ -12,7 +12,7 @@ const Menu = () => {
     >
       <Link
         onClick={toggleMenu}
-        to="/pocetna"
+        to="/"
         className="w-full text-center py-3"
       >
         Pocetna
