@@ -13,18 +13,13 @@
   --black: #000000;
   --border: #202020;
   --card-bg: #131313;
-
   --gradient-bg: #1f2c6e;
   --trans-grad-bg: #090e22;
-
   --card-hover: #00131f;
-
   --green: #2df3a7;
   --green-light: #70d7b1;
-
   --success: #41d257;
   --error: #db3939;
-
   --instagram: #e440be;
   --tiktok: #EE1D51;
   --facebook: #1877F2;
@@ -84,71 +79,19 @@ iframe::-webkit-scrollbar {
   --shadow-step-mobile:
     inset 0px 0px 25px 1px var(--primary), 0px 0px 25px 1px var(--secondary);
   --shadow-video: 0px 0px 25px 2px var(--primary);
+  --shadow-testimonial: 0px 0px 10px 1px var(--primary);
+  --shadow-motivation: 0px 3px 5px var(--primary);
 }
 
 @theme {
   --animate-slide: slide 60s ease-in-out infinite;
 
-  /* @keyframes slide {
-    0% {
-      transform: translate(0%);
-    }
-
-    10% {
-      transform: translate(-100%);
-    }
-
-    20% {
-      transform: translate(-200%);
-    }
-
-    30% {
-      transform: translate(-300%);
-    }
-
-    40% {
-      transform: translate(-400%);
-    }
-
-    50% {
-      transform: translate(-500%);
-    }
-
-    60% {
-      transform: translate(-600%);
-    }
-
-    70% {
-      transform: translate(-700%);
-    }
-
-    80% {
-      transform: translate(-800%);
-    }
-    
-    90% {
-      transform: translate(-800%);
-    }
-
-    80% {
-      transform: translate(-800%);
-    }
-  } */
-
   @keyframes slide {
-    0% {
-      transform: translate(0%);
-    }
-
     2% {
       transform: translate(0%);
     }
 
     9% {
-      transform: translate(-100%);
-    }
-
-    11% {
       transform: translate(-100%);
     }
 
@@ -160,19 +103,11 @@ iframe::-webkit-scrollbar {
       transform: translate(-200%);
     }
 
-    22% {
-      transform: translate(-200%);
-    }
-
     24% {
       transform: translate(-200%);
     }
 
     31% {
-      transform: translate(-300%);
-    }
-
-    33% {
       transform: translate(-300%);
     }
 
@@ -184,19 +119,11 @@ iframe::-webkit-scrollbar {
       transform: translate(-400%);
     }
 
-    44% {
-      transform: translate(-400%);
-    }
-
     46% {
       transform: translate(-400%);
     }
 
     53% {
-      transform: translate(-500%);
-    }
-
-    55% {
       transform: translate(-500%);
     }
 
@@ -208,10 +135,6 @@ iframe::-webkit-scrollbar {
       transform: translate(-600%);
     }
 
-    66% {
-      transform: translate(-600%);
-    }
-
     68% {
       transform: translate(-600%);
     }
@@ -220,19 +143,11 @@ iframe::-webkit-scrollbar {
       transform: translate(-700%);
     }
 
-    77% {
-      transform: translate(-700%);
-    }
-
     79% {
       transform: translate(-700%);
     }
 
     86% {
-      transform: translate(-800%);
-    }
-
-    88% {
       transform: translate(-800%);
     }
 

@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
+import { motion } from "motion/react";
 
 const MotivationCard = ({ motivation }) => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="w-full flex flex-col items-start gap-6 p-6 rounded-2xl border border-(--border)">
+    <motion.div className="w-full flex flex-col items-start gap-6 p-6 rounded-2xl border border-(--border) hover:shadow-motivation hover:-translate-y-0.5 duration-200">
       <div className="w-full flex flex-row items-center gap-6 text-(--heading)">
         <span
           onClick={() => setOpen((prev) => !prev)}
@@ -16,7 +17,7 @@ const MotivationCard = ({ motivation }) => {
         <h3 className="text-lg sm:text-xl font-semibold">{motivation.title}</h3>
       </div>
       {open && <p className="text-(--text) text-sm">{motivation.text}</p>}
-    </div>
+    </motion.div>
   );
 };
 

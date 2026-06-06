@@ -23,7 +23,7 @@ const Testimonials = () => {
       </div>
       <Link
         to="/saradnja#planovi"
-        className="flex items-center gap-2 px-7 py-2 rounded-full bg-linear-to-r from-(--primary) to-(--secondary) text-(--button-text) font-semibold text-[13px] cursor-pointer"
+        className="flex items-center gap-2 px-7 py-2 rounded-full bg-linear-to-r from-(--primary) to-(--secondary) text-(--button-text) font-semibold text-[13px] cursor-pointer hover:scale-105 duration-150"
       >
         Prodruži nam se <FaArrowRightLong className="text-(--button-text)" />
       </Link>

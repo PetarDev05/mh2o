@@ -13,7 +13,8 @@ const HowItWorks = () => {
         se na treningu.
       </p>
       <Roadmap />
-      <Link to="/saradnja#kontakt" className="flex items-center gap-2 px-7 py-2 rounded-full border-2 border-(--primary) text-(--button-text) font-semibold text-[13px] cursor-pointer">
+
+      <Link to="/saradnja#kontakt" className="flex items-center gap-2 px-7 py-2 rounded-full border-2 border-(--primary) text-(--button-text) font-semibold text-[13px] cursor-pointer hover:scale-105 duration-150">
         Započni odmah <FaArrowRightLong className="text-(--button-text)" />
       </Link>
     </section>

@@ -2,6 +2,7 @@ import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import PricingCard from "../components/pricing/PricingCard.jsx";
 import { programs } from "../data/programs.js";
+import { motion } from "motion/react";
 
 const Pricing = () => {
   const location = useLocation();
@@ -26,11 +27,17 @@ const Pricing = () => {
         Ovde možete pronaći sve planove, odaberite onaj koji vam najviše
         odgovara i koji se najbolje uklapa u vaše ciljeve i budžet.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+      <motion.div
+        initial={{ y: 40, opacity: 0 }}
+        transition={{ duration: 0.5, ease: "easeInOut" }}
+        whileInView={{ y: 0, opacity: 1 }}
+        viewport={{ once: true, amount: 0.1 }}
+        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6"
+      >
         {programs.map((program) => (
           <PricingCard key={program.id} program={program} />
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 };

@@ -3,7 +3,7 @@ import { FaArrowRightLong, FaCircleCheck, FaCircleDot } from "react-icons/fa6";
 const PricingCard = ({ program }) => {
   return (
     <div
-      className={`w-full max-w-75 px-6 py-8 rounded-2xl border ${program.best ? "border-(--primary)" : "border-(--border)"} bg-(--bg)/50 backdrop-blur-lg hover:border-(--primary) flex flex-col items-start justify-between gap-6`}
+      className={`w-full max-w-75 px-6 py-8 rounded-2xl border ${program.best ? "border-(--primary)" : "border-(--border)"} bg-(--bg)/50 backdrop-blur-lg hover:border-(--primary) flex flex-col items-start justify-between gap-6 hover:scale-101 duration-300`}
     >
       <div className="w-full flex flex-col items-start gap-6">
         <div className="w-full flex flex-col items-start gap-2">

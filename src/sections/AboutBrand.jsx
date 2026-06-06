@@ -1,6 +1,6 @@
 const AboutBrand = () => {
   return (
-    <section className="w-full min-h-screen flex flex-col items-center justify-center gap-10 px-5 pb-10">
+    <section className="w-full min-h-screen flex flex-col items-center justify-center gap-10 px-5 py-10">
       <h2 className="text-(--heading) text-3xl md:text-4xl lg:text-5xl max-w-190 font-semibold text-center">
         Kako je nastao brend MH2O
       </h2>
@@ -43,7 +43,7 @@ const AboutBrand = () => {
           <hr className="w-full text-(--border)" />
         </div>
         <div className="aspect-square w-full max-w-100 bg-radial from-(--primary)/70 to-(--bg) to-60% flex items-center justify-center">
-          <img src="/mh2o-logo.png" alt="logo" className="w-[90%]" />
+          <img src="/mh2o-logo.png" alt="logo" className="w-[90%] hover:scale-105 duration-400" />
         </div>
       </div>
 

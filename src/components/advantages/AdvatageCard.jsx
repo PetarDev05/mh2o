@@ -7,7 +7,7 @@ import { MdOutlineWaterDrop } from "react-icons/md";
 
 const AdvatageCard = ({ advantage }) => {
   return (
-    <div className="w-full max-w-75 flex flex-col items-center gap-6 p-6 rounded-2xl bg-(--bg)/50 backdrop-blur-lg border border-(--border) hover:border-(--primary) hover:bg-(--card-hover)">
+    <div className="w-full max-w-75 flex flex-col items-center gap-6 p-6 rounded-2xl bg-(--bg)/50 backdrop-blur-lg border border-(--border) hover:border-(--primary) hover:bg-(--card-hover) hover:-translate-y-1 duration-300">
       <div className="w-full flex flex-row items-center justify-start gap-4 ">
         <span className="p-3 rounded-md border border-(--primary) text-2xl text-(--white)">
           {advantage.icon === "shape" ? <SiOpenaigym /> : ""}

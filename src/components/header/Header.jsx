@@ -16,7 +16,7 @@ const Header = () => {
       <NavBar />
       <Link
         to="/saradnja#kontakt"
-        className="flex items-center gap-2 px-7 py-2 rounded-full bg-linear-to-r from-(--primary) to-(--secondary) text-(--button-text) font-semibold text-[13px] cursor-pointer max-[700px]:hidden"
+        className="flex items-center gap-2 px-7 py-2 rounded-full bg-linear-to-r from-(--primary) to-(--secondary) text-(--button-text) font-semibold text-[13px] cursor-pointer max-[700px]:hidden hover:scale-105 duration-150"
       >
         Kontaktiraj me <FaArrowRightLong className="text-(--button-text)" />
       </Link>

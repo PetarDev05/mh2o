@@ -29,7 +29,7 @@ hover:text-(--dark) transition-all duration-200 text-(--light) px-2 py-1.75 bord
 
       <div className="flex flex-row items-center gap-3">
         <span
-          className="text-(--primary) transition-all duration-200 px-2 py-1.75 border border-(--primary) rounded-[5px] cursor-pointer"
+          className="text-(--primary) transition-all px-2 py-1.75 border border-(--primary) rounded-[5px] cursor-pointer hover:scale-104 duration-150"
           disabled={loading}
           id="refresh"
           type="button"
@@ -38,7 +38,7 @@ hover:text-(--dark) transition-all duration-200 text-(--light) px-2 py-1.75 bord
           <IoRefresh className="text-xl" />
         </span>
         <button
-          className="w-30 flex items-center justify-center gap-2 px-7 py-2 rounded-md bg-(--primary) text-(--button-text) font-semibold text-[13px] cursor-pointer"
+          className="w-30 flex items-center justify-center gap-2 px-7 py-2 rounded-md bg-(--primary) text-(--button-text) font-semibold text-[13px] cursor-pointer hover:scale-104 duration-150"
           id="submit"
           disabled={loading}
           type="submit"

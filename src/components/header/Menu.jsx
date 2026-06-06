@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import { useAppContext } from "../../hooks/useAppContext.jsx";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Menu = () => {
   const { showMenu, toggleMenu } = useAppContext();
@@ -8,41 +10,33 @@ const Menu = () => {
       id="menu"
       className={`w-full max-w-100 fixed top-18 right-0 border-l border-(--border) bg-transparent backdrop-blur-lg flex flex-col items-center justify-center transition-all duration-200 text-(--text) ${showMenu ? "translate-x-0" : "translate-x-full"} z-20 min-[700px]:hidden`}
     >
-      <a
+      <Link
         onClick={toggleMenu}
-        href="#pocetna"
+        to="/pocetna"
         className="w-full text-center py-3"
       >
         Pocetna
-      </a>
-      <a
+      </Link>
+      <Link
         onClick={toggleMenu}
-        href="#o_meni"
+        to="/o_meni"
         className="w-full text-center py-3"
       >
         O meni
-      </a>
-      <a
+      </Link>
+      <Link
         onClick={toggleMenu}
-        href="#transformacije"
+        to="/saradnja"
         className="w-full text-center py-3"
       >
-        Transformacije
-      </a>
-      <a
-        onClick={toggleMenu}
-        href="#cenovnik"
-        className="w-full text-center py-3"
+        Saradnja
+      </Link>
+      <Link
+        to="/saradnja#kontakt"
+        className="flex items-center gap-2 px-7 py-2 rounded-full bg-linear-to-r from-(--primary) to-(--secondary) text-(--button-text) font-semibold text-[13px] cursor-pointer mt-10"
       >
-        Cenovnik
-      </a>
-      <a
-        onClick={toggleMenu}
-        href="#kontakt"
-        className="w-full text-center py-3"
-      >
-        Kontakt
-      </a>
+        Kontaktiraj me <FaArrowRightLong className="text-(--button-text)" />
+      </Link>
     </div>
   );
 };
