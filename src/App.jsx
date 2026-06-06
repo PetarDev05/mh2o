@@ -3,16 +3,9 @@ import Menu from "./components/header/Menu.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Colaboration from "./pages/Colaboration.jsx";
-// import Contact from "./pages/Contact.jsx";
-// import HowItWorks from "./pages/HowItWorks.jsx";
-// import Pricing from "./pages/Pricing.jsx";
-// import Testimonials from "./pages/Testimonials.jsx";
-// import Transformations from "./pages/Transformations.jsx";
-// import Advatages from "./pages/Advatages.jsx";
-// import Video from "./pages/Video.jsx";
-// import Motivations from "./pages/Motivations.jsx";
 import { Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
+import Footer from "./components/footer/Footer.jsx";
 
 const App = () => {
   return (
@@ -24,10 +17,7 @@ const App = () => {
         <Route path="/o_meni" element={<About />} />
         <Route path="/saradnja" element={<Colaboration />} />
       </Routes>
-      {/* 
-      <Transformations />
-      <Video />
-      */}
+      <Footer />
       <Toaster
         toastOptions={{
           duration: 4000,

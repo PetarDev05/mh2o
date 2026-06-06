@@ -1,6 +1,19 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 const Video = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const flag = location.hash.split("#")[1];
+      const section = document.getElementById(flag);
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location]);
+
   return (
-    <section className="w-full min-h-screen flex flex-col items-center justify-center gap-10 px-5 py-10">
+    <section id="video" className="w-full min-h-screen flex flex-col items-center justify-center gap-10 px-5 py-10">
       <h2 className="text-(--heading) text-3xl md:text-4xl lg:text-5xl max-w-190 font-semibold text-center">
         Da sumiramo
       </h2>
