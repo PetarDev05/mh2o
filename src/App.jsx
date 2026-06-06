@@ -3,7 +3,7 @@ import Menu from "./components/header/Menu.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Colaboration from "./pages/Colaboration.jsx";
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import Footer from "./components/footer/Footer.jsx";
 
@@ -13,6 +13,7 @@ const App = () => {
       <Header />
       <Menu />
       <Routes>
+        <Route index element={<Navigate to="/pocetna" />} />
         <Route path="/pocetna" element={<Home />} />
         <Route path="/o_meni" element={<About />} />
         <Route path="/saradnja" element={<Colaboration />} />
