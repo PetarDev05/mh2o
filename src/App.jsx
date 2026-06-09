@@ -6,10 +6,12 @@ import Colaboration from "./pages/Colaboration.jsx";
 import { Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import Footer from "./components/footer/Footer.jsx";
+import ScrollToTop from "./components/helpers/ScrollToTop.jsx";
 
 const App = () => {
   return (
     <main>
+      <ScrollToTop />
       <Header />
       <Menu />
       <Routes>

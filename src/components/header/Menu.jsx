@@ -13,27 +13,28 @@ const Menu = () => {
       <Link
         onClick={toggleMenu}
         to="/"
-        className="w-full text-center py-3"
+        className="w-full text-center py-3 hover:text-(--white) duration-100"
       >
-        Pocetna
+        Početna
       </Link>
       <Link
         onClick={toggleMenu}
         to="/o_meni"
-        className="w-full text-center py-3"
+        className="w-full text-center py-3 hover:text-(--white) duration-100"
       >
         O meni
       </Link>
       <Link
         onClick={toggleMenu}
         to="/saradnja"
-        className="w-full text-center py-3"
+        className="w-full text-center py-3 hover:text-(--white) duration-100"
       >
         Saradnja
       </Link>
       <Link
+        onClick={toggleMenu}
         to="/saradnja#kontakt"
-        className="flex items-center gap-2 px-7 py-2 rounded-full bg-linear-to-r from-(--primary) to-(--secondary) text-(--button-text) font-semibold text-[13px] cursor-pointer mt-10"
+        className="flex items-center gap-2 px-7 py-2 rounded-full bg-linear-to-r from-(--primary) to-(--secondary) text-(--button-text) font-semibold text-[13px] cursor-pointer mt-10 hover:scale-105 duration-150"
       >
         Kontaktiraj me <FaArrowRightLong className="text-(--button-text)" />
       </Link>

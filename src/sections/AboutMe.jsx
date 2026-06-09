@@ -22,23 +22,23 @@ const AboutMe = () => {
             <p className="max-[850px]:hidden">
               Nosilac sam nekoliko nagrada i licenci, izmedju ostalog i FISAF
               licence za personalnog trenera i primenu sporta medju
-              gradjanstvom.
+              građanstvom.
             </p>
           </div>
           <img src="/me.png" alt="picture-of-me" className="w-85 min-[850px]:w-70 lg:w-65 rounded-3xl hover:scale-103 duration-300" />
         </div>
         <p className="min-[850px]:hidden">
           Nosilac sam nekoliko nagrada i licenci, izmedju ostalog i FISAF
-          licence za personalnog trenera i primenu sporta medju gradjanstvom.
+          licence za personalnog trenera i primenu sporta medju građanstvom.
         </p>
         <h3 className="w-full text-(--heading) text-2xl font-semibold">Moja lična misija</h3>
         <p> 
           Spoznao sam sebe kroz višegodišnji profesionalni sport.
           <br /> Odlučio sam, da svoju viziju zdravog života i profesionalnu
-          edukaciju prenesem na što veći broj gradjana kako bi smo živeli u
+          edukaciju prenesem na što veći broj građana kako bi smo živeli u
           boljem i zdravijem društvu.
           <br /> Beneficije kvalitetnog sportskog programa i edukacije se
-          odražava na sve segmente života. Pridružite se budjenu nacije u
+          odražava na sve segmente života. Pridružite se buđenu nacije u
           zdravim navikama.
         </p>
       </div>

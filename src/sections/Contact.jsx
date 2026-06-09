@@ -23,7 +23,7 @@ const Contact = () => {
       </h2>
       <p className="text-(--text) max-w-150 text-center">
         Ovde mozete uneti i dodatne informacije o sebi, svojim ciljevima i
-        navikama, na osnovu cega ce biti izradjen potpuno personalizovan plan
+        navikama, na osnovu čega ce biti izrađen potpuno personalizovan plan
         treninga.
       </p>
       <Form />

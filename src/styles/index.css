@@ -79,7 +79,7 @@ iframe::-webkit-scrollbar {
   --shadow-step-mobile:
     inset 0px 0px 25px 1px var(--primary), 0px 0px 25px 1px var(--secondary);
   --shadow-video: 0px 0px 25px 2px var(--primary);
-  --shadow-testimonial: 0px 0px 10px 1px var(--primary);
+  --shadow-testimonial: 0px 0px 5px 1px var(--primary);
   --shadow-motivation: 0px 3px 5px var(--primary);
 }
 

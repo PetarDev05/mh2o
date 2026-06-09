@@ -7,7 +7,7 @@ const Transformations = () => {
       <p className="text-(--text) max-w-150 text-center">
         Evo nekoliko sjajnih transformacija koje su ostvarili moji klijenti.
       </p>
-      <div className="flex aspect-square w-full max-w-125 overflow-x-hidden rounded-2xl">
+      <div className="flex aspect-square w-full max-w-125 overflow-x-hidden rounded-3xl">
         <div className="flex flex-row items-center animate-slide">
           <img src="/trans01.png" alt="transformation-image" />
           <img src="/trans02.png" alt="transformation-image" />

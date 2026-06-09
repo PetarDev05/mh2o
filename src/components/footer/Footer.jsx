@@ -13,28 +13,28 @@ const Footer = () => {
         <a
           href="https://www.instagram.com/milos.h2o/"
           target="_blank"
-          className="hover:-translate-y-0.5 hover:text-(--instagram) duration-200"
+          className="hover:scale-110 hover:text-(--instagram) duration-200"
         >
           <FaInstagram />
         </a>
         <a
           href="https://www.facebook.com/milos.h2o#"
           target="_blank"
-          className="hover:-translate-y-0.5 hover:text-(--facebook) duration-200"
+          className="hover:scale-110 hover:text-(--facebook) duration-200"
         >
           <FaFacebookSquare />
         </a>
         <a
           href="https://www.tiktok.com/@milos.h2o"
           target="_blank"
-          className="hover:-translate-y-0.5 hover:text-(--tiktok) duration-200"
+          className="hover:scale-110 hover:text-(--tiktok) duration-200"
         >
           <AiFillTikTok />
         </a>
         <a
           href="https://www.linkedin.com/in/milos-ordic-2b3342260"
           target="_blank"
-          className="hover:-translate-y-0.5 hover:text-(--linkedin) duration-200"
+          className="hover:scale-110 hover:text-(--linkedin) duration-200"
         >
           <FaLinkedin />
         </a>
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col items-center text-(--text) text-md gap-5">
           <p className="text-lg text-(--heading) font-semibold">Kontakt</p>
-          <p className="">milos@mh2ofitness.com</p>
+          <p className="">ordicmilosss@gmail.com</p>
           <p className="">+381/60-3555412</p>
         </div>
       </div>
@@ -67,7 +67,7 @@ const Footer = () => {
       ></iframe>
       <hr className="w-full max-w-130 text-(--border)" />
       <p className="text-(--text) text-center">
-        &copy; {year} MH2O BRAND. All Right Reserved
+        &copy; {year} MH2O BRAND. All Rights Reserved
       </p>
     </footer>
   );

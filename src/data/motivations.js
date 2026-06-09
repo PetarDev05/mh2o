@@ -2,7 +2,7 @@ export const motivations = [
   {
     id: "motiv-01",
     title: "Povrede",
-    text: "Da li ste znali da se skoro svaka šesta osoba povredi prilikom nepravilnog izvodjenja vežbi. Brzopleti stres za telo koji ljudi sebi čine radi spremanja ''letnje forme'' dovodi do katastrofalnih posledica za njihov dalji život i normalno funkcionisanje tela.Edukacija u svojstvu pravilnog izvodjenja vežbi podrazumeva minimum pet godina učenja, analize, testiranja i raspodele plana i programa treninga i odmora, kako bi trenažni proces bio ''siguran'' po vežbača.",
+    text: "Da li ste znali da se skoro svaka šesta osoba povredi prilikom nepravilnog izvođenja vežbi. Brzopleti stres za telo koji ljudi sebi čine radi spremanja ''letnje forme'' dovodi do katastrofalnih posledica za njihov dalji život i normalno funkcionisanje tela. Edukacija u svojstvu pravilnog izvođenja vežbi podrazumeva minimum pet godina učenja, analize, testiranja i raspodele plana i programa treninga i odmora, kako bi trenažni proces bio ''siguran'' po vežbača.",
   },
   {
     id: "motiv-02",
@@ -17,7 +17,7 @@ export const motivations = [
   {
     id: "motiv-04",
     title: "Samopouzdanje",
-    text: `Kada ste poslednji put zastali ispred ogledala i rekli "WOW, kako dobro izgledam!" Neki ljudi taj osećaj ne dožive za ceo život. Stres i ugnjetavanje koje se dešava na radnim mestima i raznim životnim situacijama čine ljude slabim, uplasenim, isfrustriranim, anksioznim, pa čak i depresivnim. Posledice mogu biti hronične. Podržite Vašu psihu izborom pravih životnih navika, budi zadovoljni Vašim telom koje je hram naše duše. Neka vam Vaše telo daje motivaciju da svakog dana idete u nove pobede.`,
+    text: `Kada ste poslednji put zastali ispred ogledala i rekli "WOW, kako dobro izgledam!" Neki ljudi taj osećaj ne dožive za ceo život. Stres i ugnjetavanje koje se dešava na radnim mestima i raznim životnim situacijama čine ljude slabim, uplašenim, isfrustriranim, anksioznim, pa čak i depresivnim. Posledice mogu biti hronične. Podržite Vašu psihu izborom pravih životnih navika, budite zadovoljni Vašim telom koje je hram naše duše. Neka vam Vaše telo daje motivaciju da svakog dana idete u nove pobede.`,
   },
   {
     id: "motiv-05",
