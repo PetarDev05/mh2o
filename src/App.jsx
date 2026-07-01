@@ -16,8 +16,8 @@ const App = () => {
       <Menu />
       <Routes>
         <Route index element={<Home />} />
-        <Route path="/o_meni" element={<About />} />
-        <Route path="/saradnja" element={<Colaboration />} />
+        <Route path="/about_me" element={<About />} />
+        <Route path="/work_with_me" element={<Colaboration />} />
       </Routes>
       <Footer />
       <Toaster

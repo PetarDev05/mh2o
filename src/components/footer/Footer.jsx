@@ -27,10 +27,10 @@ const Footer = () => {
       <div className="flex flex-col sm:flex-row items-center gap-15">
         <div className="flex flex-col items-center text-(--text) text-md gap-5">
           <p className="text-lg text-(--heading) font-semibold">Work with me</p>
-          <Link to="/saradnja#planovi" className="">
+          <Link to="/work_with_me#programs" className="">
             Personal training
           </Link>
-          <Link to="/saradnja#planovi" className="">
+          <Link to="/work_with_me#programs" className="">
             Online programs
           </Link>
         </div>

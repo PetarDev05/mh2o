@@ -19,21 +19,21 @@ const Menu = () => {
       </Link>
       <Link
         onClick={toggleMenu}
-        to="/o_meni"
+        to="/about_me"
         className="w-full text-center py-3 hover:text-(--white) duration-100"
       >
         About me
       </Link>
       <Link
         onClick={toggleMenu}
-        to="/saradnja"
+        to="/work_with_me"
         className="w-full text-center py-3 hover:text-(--white) duration-100"
       >
         Work with me
       </Link>
       <Link
         onClick={toggleMenu}
-        to="/saradnja#kontakt"
+        to="/work_with_me#contact"
         className="flex items-center gap-2 px-7 py-2 rounded-full bg-linear-to-r from-(--primary) to-(--secondary) text-(--button-text) font-semibold text-[13px] cursor-pointer mt-10 hover:scale-105 duration-150"
       >
         Contact me <FaArrowRightLong className="text-(--button-text)" />

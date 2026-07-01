@@ -15,20 +15,20 @@ const NavBar = () => {
         )}
       </Link>
       <Link
-        to="/o_meni"
-        className={`w-fit flex flex-col items-center gap-1 ${location.pathname === "/o_meni" ? "text-(--heading)" : ""}`}
+        to="/about_me"
+        className={`w-fit flex flex-col items-center gap-1 ${location.pathname === "/about_me" ? "text-(--heading)" : ""}`}
       >
         <p className="">About me</p>
-        {location.pathname === "/o_meni" && (
+        {location.pathname === "/about_me" && (
           <span className="w-full h-0.5 rounded bg-(--primary)"></span>
         )}
       </Link>
       <Link
-        to="/saradnja"
-        className={`w-fit flex flex-col items-center gap-1 ${location.pathname === "/saradnja" ? "text-(--heading)" : ""}`}
+        to="/work_with_me"
+        className={`w-fit flex flex-col items-center gap-1 ${location.pathname === "/work_with_me" ? "text-(--heading)" : ""}`}
       >
         <p className="">Work with me</p>
-        {location.pathname === "/saradnja" && (
+        {location.pathname === "/work_with_me" && (
           <span className="w-full h-0.5 rounded bg-(--primary)"></span>
         )}
       </Link>

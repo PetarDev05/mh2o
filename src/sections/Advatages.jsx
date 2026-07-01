@@ -19,7 +19,7 @@ const Advatages = () => {
         ))}
       </div>
       <Link
-        to="/saradnja#kontakt"
+        to="/work_with_me#contact"
         className="flex items-center gap-2 px-7 py-2 rounded-full bg-linear-to-r from-(--primary) to-(--secondary) text-(--button-text) font-semibold text-[13px] cursor-pointer hover:scale-105 duration-150"
       >
         Try it yourself <FaArrowRightLong className="text-(--button-text)" />

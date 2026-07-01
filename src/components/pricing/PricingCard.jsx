@@ -34,16 +34,14 @@ const PricingCard = ({ program }) => {
         <hr className="w-full text-(--border)" />
       </div>
       <div className="w-full flex flex-col items-start gap-4">
-        <p className="text-(--text) text-lg line-through">
-          {program.oldPrice}
-        </p>
+        <p className="text-(--text) text-lg line-through">{program.oldPrice}</p>
         <p
           className={`${program.best ? "text-(--green)" : "text-(--white)"} text-xl`}
         >
           {program.price}
         </p>
         <a
-          href="#kontakt"
+          href="#contact"
           className="flex items-center gap-2 px-7 py-2 rounded-md bg-(--primary) text-(--button-text) font-semibold text-[13px] cursor-pointer"
         >
           Izaberi plan <FaArrowRightLong className="text-(--button-text)" />

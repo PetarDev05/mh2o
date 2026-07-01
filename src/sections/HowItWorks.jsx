@@ -9,11 +9,15 @@ const HowItWorks = () => {
         How the process works
       </h2>
       <p className="text-(--text) max-w-150 text-center">
-        Take these simple steps, contact me and I'll prepare specialized training program that best fits your needs and experience level.
+        Take these simple steps, contact me and I'll prepare specialized
+        training program that best fits your needs and experience level.
       </p>
       <Roadmap />
 
-      <Link to="/saradnja#kontakt" className="flex items-center gap-2 px-7 py-2 rounded-full border-2 border-(--primary) text-(--button-text) font-semibold text-[13px] cursor-pointer hover:scale-105 duration-150">
+      <Link
+        to="/work_with_me#contact"
+        className="flex items-center gap-2 px-7 py-2 rounded-full border-2 border-(--primary) text-(--button-text) font-semibold text-[13px] cursor-pointer hover:scale-105 duration-150"
+      >
         Start now <FaArrowRightLong className="text-(--button-text)" />
       </Link>
     </section>
