@@ -12,7 +12,7 @@ const PricingCard = ({ program }) => {
             {program.best && (
               <p className="py-0.5 pl-1.5 pr-3 border border-(--green) rounded-full text-(--heading) text-[12px] flex items-center gap-2 bg-(--green)/25">
                 <FaCircleDot className="text-(--white) text-md" />
-                Najbolji izbor
+                Best choice
               </p>
             )}
           </div>
@@ -34,13 +34,13 @@ const PricingCard = ({ program }) => {
         <hr className="w-full text-(--border)" />
       </div>
       <div className="w-full flex flex-col items-start gap-4">
-        <p className="text-(--text) text-md line-through">
-          {program.oldPrice} {program.oldPrice ? "dinara" : ""}
+        <p className="text-(--text) text-lg line-through">
+          {program.oldPrice}
         </p>
         <p
-          className={`${program.best ? "text-(--green)" : "text-(--white)"} text-lg`}
+          className={`${program.best ? "text-(--green)" : "text-(--white)"} text-xl`}
         >
-          {program.price} dinara
+          {program.price}
         </p>
         <a
           href="#kontakt"

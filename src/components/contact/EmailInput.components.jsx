@@ -7,7 +7,7 @@ const EmailInput = ({ input, handleChange }) => {
         onChange={handleChange}
         className="border border-(--border)"
         type="text"
-        placeholder="Vaš E-mail *"
+        placeholder="Your E-mail *"
       />
     </div>
   );

@@ -9,27 +9,27 @@ const NavBar = () => {
         to="/"
         className={`w-fit flex flex-col items-center gap-1 ${location.pathname === "/" ? "text-(--heading)" : ""}`}
       >
-        <p className="">Početna</p>
+        <p className="">Home</p>
         {location.pathname === "/" && (
-          <span className="w-full h-0.5 rounded bg-(--heading)"></span>
+          <span className="w-full h-0.5 rounded bg-(--primary)"></span>
         )}
       </Link>
       <Link
         to="/o_meni"
         className={`w-fit flex flex-col items-center gap-1 ${location.pathname === "/o_meni" ? "text-(--heading)" : ""}`}
       >
-        <p className="">O meni</p>
+        <p className="">About me</p>
         {location.pathname === "/o_meni" && (
-          <span className="w-full h-0.5 rounded bg-(--heading)"></span>
+          <span className="w-full h-0.5 rounded bg-(--primary)"></span>
         )}
       </Link>
       <Link
         to="/saradnja"
         className={`w-fit flex flex-col items-center gap-1 ${location.pathname === "/saradnja" ? "text-(--heading)" : ""}`}
       >
-        <p className="">Saradnja</p>
+        <p className="">Work with me</p>
         {location.pathname === "/saradnja" && (
-          <span className="w-full h-0.5 rounded bg-(--heading)"></span>
+          <span className="w-full h-0.5 rounded bg-(--primary)"></span>
         )}
       </Link>
     </nav>

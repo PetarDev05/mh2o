@@ -7,16 +7,16 @@ const SelectInput = ({ input, handleChange }) => {
         className="border border-(--border) cursor-pointer"
       >
         <option className="bg-(--bg) backdrop-blur-lg" value="">
-          Odaberite svoj nivo utreniranosti
+          Chose your experience level
         </option>
         <option className="bg-(--bg) backdrop-blur-lg" value="begginer">
-          Početni
+          Begginer
         </option>
         <option className="bg-(--bg) backdrop-blur-lg" value="intermediate">
-          Srednji
+          Intermediate
         </option>
         <option className="bg-(--bg) backdrop-blur-lg" value="advanced">
-          Napredan
+          Advanced
         </option>
       </select>
   );

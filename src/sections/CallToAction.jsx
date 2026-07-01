@@ -13,25 +13,24 @@ const CallToAction = () => {
         className="flex flex-col items-center gap-10"
       >
         <h2 className="text-(--heading) text-3xl md:text-4xl lg:text-5xl max-w-190 font-semibold text-center">
-          Započni svoju transformaciju već danas
+          Start your transformation today
         </h2>
         <p className="text-(--text) max-w-150 text-center">
-          Pogledajte i odaberite plan ili mi se javite putem kontakt forme i
-          počinjemo sa radom!
+          Select the program that best fits your situation or send an inquiry
+          via the contact form and you are ready to go.
         </p>
         <div className="flex flex-col min-[450px]:flex-row items-center min-[450px]:items-center gap-5">
           <Link
             to="/saradnja#kontakt"
             className="flex items-center gap-2 px-7 py-2 rounded-full bg-linear-to-r from-(--primary) to-(--secondary) text-(--button-text) font-semibold text-[13px] cursor-pointer hover:scale-105 duration-150"
           >
-            Počni odmah <FaArrowRightLong className="text-(--button-text)" />
+            Start now <FaArrowRightLong className="text-(--button-text)" />
           </Link>
           <Link
             to="/saradnja#planovi"
             className="flex items-center gap-2 px-7 py-2 rounded-full border-2 border-(--primary) text-(--button-text) font-semibold text-[13px] cursor-pointer hover:scale-105 duration-150"
           >
-            Pogledaj planove{" "}
-            <FaArrowRightLong className="text-(--button-text)" />
+            Browse plans <FaArrowRightLong className="text-(--button-text)" />
           </Link>
         </div>
       </motion.div>

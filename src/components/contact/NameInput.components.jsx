@@ -7,7 +7,7 @@ const NameInput = ({ input, handleChange }) => {
         onChange={handleChange}
         className="border border-(--border)"
         type="text"
-        placeholder="Vaše Ime *"
+        placeholder="Your name *"
       />
     </div>
   );

@@ -1,8 +1,13 @@
 const FormHead = () => {
-  return <div className="flex flex-col items-center gap-4">
-    <img src="/mh2o-logo.png" alt="form-logo" className="w-20" />
-    <p className="text-sm text-(--text) text-center">Pošaljite formu i javiću vam se sa daljim instrukcijama</p>
-  </div>;
+  return (
+    <div className="flex flex-col items-center gap-4">
+      <img src="/john_smith_logo.png" alt="form-logo" className="w-25" />
+      <p className="text-sm text-(--text) text-center">
+        Send me a message and I'll get back to you with further
+        instructions.
+      </p>
+    </div>
+  );
 };
 
 export default FormHead;

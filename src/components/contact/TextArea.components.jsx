@@ -6,7 +6,7 @@ const TextArea = ({ input, handleChange }) => {
         value={input.message}
         onChange={handleChange}
         className="border border-(--border) min-h-35 resize-none"
-        placeholder="Upišite svoju poruku ovde..."
+        placeholder="Write your message here..."
       ></textarea>
     </div>
   );

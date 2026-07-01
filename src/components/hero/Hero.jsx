@@ -15,30 +15,29 @@ const Hero = () => {
       >
         <p className="w-fit py-0.5 pl-1.5 pr-3 border border-(--primary) rounded-full text-(--heading) text-[12px] flex items-center gap-2 bg-(--primary)/25">
           <FaCircleDot className="text-(--white) text-md" />
-          Personalni trener Miloš Ordić
+          Personal Trainer John Smith
         </p>
         <h1 className="text-(--heading) text-5xl md:text-6xl lg:text-7xl max-w-190 font-semibold">
           <span className="text-transparent bg-clip-text bg-linear-to-r from-(--primary) to-(--secondary)">
-            Premium personalni{" "}
+            Premium personal{" "}
           </span>
-          i online treninzi
+          and online trainings
         </h1>
         <p className="text-(--text) text-md md:text-lg max-w-190">
-          Vrhunski gubitak težine i transformacija životnog stila, koji stvaraju
-          dugotrajne i velike rezultate za vaše zdravlje, telo i um.
+          Perfect weight loss and transformation of lifestyle, which creates longlasting rezults for your health, body and mind.
         </p>
         <div className="flex flex-col min-[450px]:flex-row items-start min-[450px]:items-center gap-5">
           <Link
             to="/saradnja#kontakt"
             className="flex items-center gap-2 px-7 py-2 rounded-full bg-linear-to-r from-(--primary) to-(--secondary) text-(--button-text) font-semibold text-[13px] cursor-pointer hover:scale-105 duration-150"
           >
-            Počni odmah <FaArrowRightLong className="text-(--button-text)" />
+            Start now <FaArrowRightLong className="text-(--button-text)" />
           </Link>
           <Link
             to="/saradnja#planovi"
             className="flex items-center gap-2 px-7 py-2 rounded-full border-2 border-(--primary) text-(--button-text) font-semibold text-[13px] cursor-pointer hover:scale-105 duration-150"
           >
-            Pogledaj planove{" "}
+            Browse programs{" "}
             <FaArrowRightLong className="text-(--button-text)" />
           </Link>
         </div>
