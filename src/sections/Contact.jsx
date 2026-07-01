@@ -15,7 +15,7 @@ const Contact = () => {
 
   return (
     <section
-      id="kontakt"
+      id="contact"
       className="w-full min-h-screen flex flex-col items-center justify-center gap-10 px-5 py-10 bg-radial from-(--gradient-bg)/50 to-(--bg) to-50%"
     >
       <h2 className="text-(--heading) text-3xl md:text-4xl lg:text-5xl max-w-190 font-semibold text-center">
